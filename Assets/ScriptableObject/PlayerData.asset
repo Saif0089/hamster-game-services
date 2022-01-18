@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: PlayerData
   m_EditorClassIdentifier: 
   playfabID: 
-  displayName: Ehtisham
-  trophy: 84
-  level: 4
-  experience: 59
+  displayName: Nice
+  trophy: 120
+  level: 5
+  experience: 76
   mvp: 0
-  totalGames: 38
-  winGames: 20
+  totalGames: 48
+  winGames: 30
   rampage: 0
-  winstreak: 8
+  winstreak: 18
   gold: 4250
   gem: 0
-  currentCharacter: 3
+  currentCharacter: 0
   weaponID: spacegun
