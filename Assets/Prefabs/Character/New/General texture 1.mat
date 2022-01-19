@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: LBS Outline Material
+  m_Name: General texture 1
   m_Shader: {fileID: 4800000, guid: befd9ee8056a28b4a875994d6a9cc69b, type: 3}
   m_ShaderKeywords: TCP2_UV_NORMALS_FULL _ALPHABLEND_ON
   m_LightmapFlags: 4
@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: a8aed25c37a92494988cc7fbf89943f0, type: 3}
+        m_Texture: {fileID: 2800000, guid: 96b1f4aafb1a34748865a42a646d4eeb, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -82,7 +82,7 @@ Material:
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
-    - _Cull: 2
+    - _Cull: 1
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
@@ -96,35 +96,37 @@ Material:
     - _NormalsSource: 0
     - _NormalsUVType: 0
     - _OcclusionStrength: 1
-    - _OutlineWidth: 6
+    - _OutlineWidth: 4.53
     - _Parallax: 0.005
     - _QueueOffset: 0
     - _RampSmoothing: 0.644
     - _RampThreshold: 0.534
     - _ReceiveShadows: 1
+    - _ReceiveShadowsOff: 1
     - _RenderingMode: 1
-    - _RimMax: 1.216
-    - _RimMin: 1.055
+    - _RimMax: 1.485
+    - _RimMin: 0.96
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 5
     - _Surface: 0
     - _UVSec: 0
+    - _UseRim: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
     - __dummy__: 0
     m_Colors:
     - _BaseColor: {r: 0.8, g: 0.8, b: 0.8, a: 1}
-    - _Color: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _HColor: {r: 1, g: 1, b: 1, a: 1}
+    - _HColor: {r: 0.41509432, g: 0.41509432, b: 0.41509432, a: 1}
     - _OutlineColorVertex: {r: 0, g: 0, b: 0, a: 1}
     - _RimColor: {r: 1, g: 1, b: 1, a: 0.5}
     - _SColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
   m_BuildTextureStacks: []
---- !u!114 &1237496741997736013
+--- !u!114 &2683762797342753748
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
