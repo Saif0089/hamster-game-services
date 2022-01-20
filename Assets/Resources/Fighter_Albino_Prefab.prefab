@@ -84,7 +84,7 @@ PrefabInstance:
     - target: {fileID: 3561634140795531011, guid: e3a155a441bdd334683990f616d0b17b, type: 3}
       propertyPath: data
       value: 
-      objectReference: {fileID: 11400000, guid: bcb171f40523633418931fca2c3dc0bf, type: 2}
+      objectReference: {fileID: 11400000, guid: a7fa5165b3b062a4d93b034d3de4bc33, type: 2}
     - target: {fileID: 3977545303973464102, guid: e3a155a441bdd334683990f616d0b17b, type: 3}
       propertyPath: m_Name
       value: Fighter_Albino_Prefab

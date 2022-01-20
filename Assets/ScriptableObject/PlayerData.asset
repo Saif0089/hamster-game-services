@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: PlayerData
   m_EditorClassIdentifier: 
   playfabID: 
-  displayName: Nice
-  trophy: 120
+  displayName: NiceOne
+  trophy: 12
   level: 5
-  experience: 76
+  experience: 91
   mvp: 0
-  totalGames: 48
-  winGames: 30
+  totalGames: 49
+  winGames: 31
   rampage: 0
-  winstreak: 18
+  winstreak: 19
   gold: 4250
   gem: 0
-  currentCharacter: 0
-  weaponID: spacegun
+  currentCharacter: 1
+  weaponID: shotgun

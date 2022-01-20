@@ -734,7 +734,7 @@ MonoBehaviour:
   _PlayerData: {fileID: 11400000, guid: 7b669fc1d1e67904898b8c806c640478, type: 2}
   isAutoInit: 1
   weaponLibrary: {fileID: 11400000, guid: 90bb83c0e1072bf43921ae8fba6906df, type: 2}
-  currentWeapon: {fileID: 11400000, guid: 67411ffd10ae56143a736ffc49a7fbaa, type: 2}
+  currentWeapon: {fileID: 11400000, guid: 5f543301bd05fd64687c3bfceb48e76f, type: 2}
 --- !u!114 &-6443850966016084277
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -138,7 +138,8 @@ public class Character : MonoBehaviourPun
     {
         NickName = GetView().GetName();
         SetTeam(GetView().GetTeam());
-        weaponID = GetView().GetWeapon();
+        //weaponID = GetView().GetWeapon();
+        weaponID = data.weaponData.id;
         Index = GetView().GetIndex();
     }
 

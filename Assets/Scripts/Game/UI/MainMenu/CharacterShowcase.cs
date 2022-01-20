@@ -54,6 +54,7 @@ public class CharacterShowcase : MonoBehaviour
     void UpdateCurrentWeapon()
     {
         currentEquipWeapon.SetWeapon(_PlayerData.weaponID);
+
     }
 }
 
