@@ -29,5 +29,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Sandbox/PhotonSandbox.unity
     guid: e10e2ff9b60b83a438a7538b467e12af
+  - enabled: 1
+    path: Assets/Scenes/GameScene/Grass Scene.unity
+    guid: bffc53989b1230f4eb02f4066ec3fa14
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 4f25df16ee374454fb2359c5e2be47c0, type: 2}

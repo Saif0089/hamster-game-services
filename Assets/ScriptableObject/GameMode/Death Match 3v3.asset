@@ -13,13 +13,16 @@ MonoBehaviour:
   m_Name: Death Match 3v3
   m_EditorClassIdentifier: 
   gameScene:
-    sceneAsset: {fileID: 102900000, guid: bfdc7959d92dfaa449261adf80668c6c, type: 3}
-    sceneName: Scenes/GameScene/Game_DeathMatch_Team
+    sceneAsset: {fileID: 102900000, guid: bffc53989b1230f4eb02f4066ec3fa14, type: 3}
+    sceneName: Scenes/GameScene/Grass Scene
   modeID: 1
   maxPlayer: 6
   teamSize: 2
   respawnTime: 4
   connectionTimeOut: 15
+  gameTime: 300
+  bonusTime: 15
+  modeCharacter: []
   winRewardData: {fileID: 11400000, guid: 2b19dd3db2149ae40b42027d2326af9c, type: 2}
   lostRewardData: {fileID: 11400000, guid: 0acd4d24b8981ad4e9bec5e093134d6a, type: 2}
   currentPlayerIndex: 0
