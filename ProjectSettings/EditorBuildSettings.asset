@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MenuScene/CharacterEquipment.unity
     guid: 7cfbaa4c0ce18bd48870094acb02373d
   - enabled: 1
+    path: Assets/Scenes/GameScene/Grass Scene.unity
+    guid: bffc53989b1230f4eb02f4066ec3fa14
+  - enabled: 1
     path: Assets/Scenes/GameScene/Game_DeathMatch_Solo.unity
     guid: 67d99b688ccd095479d5ae55ccb89034
   - enabled: 1

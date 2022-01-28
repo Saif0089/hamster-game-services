@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Death Match 1v1
   m_EditorClassIdentifier: 
   gameScene:
-    sceneAsset: {fileID: 102900000, guid: 67d99b688ccd095479d5ae55ccb89034, type: 3}
-    sceneName: Scenes/GameScene/Game_DeathMatch_Solo
+    sceneAsset: {fileID: 102900000, guid: bffc53989b1230f4eb02f4066ec3fa14, type: 3}
+    sceneName: Scenes/GameScene/Grass Scene
   modeID: 0
   maxPlayer: 2
   teamSize: 2

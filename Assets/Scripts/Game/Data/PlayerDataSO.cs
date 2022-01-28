@@ -154,7 +154,7 @@ public class PlayerDataSO : ScriptableObject
             if (Data.ContainsKey(PrefsKeys.WinStreaks)) winstreak = Int32.Parse(Data[PrefsKeys.WinStreaks]);
 
             if (Data.ContainsKey(PrefsKeys.CurrentCharacter)) currentCharacter = Int32.Parse(Data[PrefsKeys.CurrentCharacter]);
-            if (Data.ContainsKey(PrefsKeys.CurrentWeapon)) weaponID = (Data[PrefsKeys.CurrentWeapon]); else weaponID = "shotgun";
+            if (Data.ContainsKey(PrefsKeys.CurrentWeapon)) weaponID = (Data[PrefsKeys.CurrentWeapon]); /*else weaponID = "shotgun";*/
         }
         OnUserDataUpdated?.Invoke();
     }
@@ -172,7 +172,7 @@ public class PlayerDataSO : ScriptableObject
             if (Data.ContainsKey(PrefsKeys.WinStreaks)) winstreak = Int32.Parse(Data[PrefsKeys.WinStreaks].Value);
 
             if (Data.ContainsKey(PrefsKeys.CurrentCharacter)) currentCharacter = Int32.Parse(Data[PrefsKeys.CurrentCharacter].Value);
-            if (Data.ContainsKey(PrefsKeys.CurrentWeapon)) weaponID = (Data[PrefsKeys.CurrentWeapon].Value); else weaponID = "shotgun";
+            if (Data.ContainsKey(PrefsKeys.CurrentWeapon)) weaponID = (Data[PrefsKeys.CurrentWeapon].Value); /* else weaponID = "shotgun"; */
         }
         OnUserDataUpdated?.Invoke();
     }
