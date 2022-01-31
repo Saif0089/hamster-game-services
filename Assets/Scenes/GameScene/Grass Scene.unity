@@ -1466,6 +1466,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 270b0ef382082bf43a219d47b3b23b5c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 833427a843be77b4d9674b4e6c7e51cc, type: 2}
     - target: {fileID: 919132149155446097, guid: 270b0ef382082bf43a219d47b3b23b5c, type: 3}
       propertyPath: m_Name
       value: spawn_allies
@@ -2361,6 +2365,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 52373248128315c47baf59ab8d2b90e8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 833427a843be77b4d9674b4e6c7e51cc, type: 2}
     - target: {fileID: 919132149155446097, guid: 52373248128315c47baf59ab8d2b90e8, type: 3}
       propertyPath: m_Name
       value: spawn_enemies
@@ -2981,6 +2989,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 52373248128315c47baf59ab8d2b90e8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 833427a843be77b4d9674b4e6c7e51cc, type: 2}
     - target: {fileID: 919132149155446097, guid: 52373248128315c47baf59ab8d2b90e8, type: 3}
       propertyPath: m_Name
       value: spawn_enemies
@@ -3125,6 +3137,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 270b0ef382082bf43a219d47b3b23b5c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 833427a843be77b4d9674b4e6c7e51cc, type: 2}
     - target: {fileID: 919132149155446097, guid: 270b0ef382082bf43a219d47b3b23b5c, type: 3}
       propertyPath: m_Name
       value: spawn_allies
@@ -3826,6 +3842,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 52373248128315c47baf59ab8d2b90e8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 833427a843be77b4d9674b4e6c7e51cc, type: 2}
     - target: {fileID: 919132149155446097, guid: 52373248128315c47baf59ab8d2b90e8, type: 3}
       propertyPath: m_Name
       value: spawn_enemies
@@ -4349,6 +4369,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0e10f1b0b84c8304391f3efc48a7a48e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 833427a843be77b4d9674b4e6c7e51cc, type: 2}
     - target: {fileID: 919132149155446097, guid: 0e10f1b0b84c8304391f3efc48a7a48e, type: 3}
       propertyPath: m_Name
       value: spawn_seed
@@ -5553,6 +5577,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 270b0ef382082bf43a219d47b3b23b5c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 833427a843be77b4d9674b4e6c7e51cc, type: 2}
     - target: {fileID: 919132149155446097, guid: 270b0ef382082bf43a219d47b3b23b5c, type: 3}
       propertyPath: m_Name
       value: spawn_allies
@@ -141081,7 +141109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7436f707f0a4b2418069787c90b4897, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnObj: {fileID: 3278128086013105588, guid: ac3636d311786cb41979e3b3cb107633, type: 3}
+  spawnObj: {fileID: 3278128086013105588, guid: dcc6fc3710636294b8494d896f8cc314, type: 3}
   respawnTime: 45
   spawnOnStart: 0
 --- !u!4 &3023289596133571871

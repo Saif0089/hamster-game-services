@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class FadeShader : MonoBehaviour
 {
-    private MeshRenderer meshRenderer;
+    [SerializeField] private MeshRenderer meshRenderer;
     private Material[] materials;
 
     public bool isTransparent = false;
@@ -14,7 +14,9 @@ public class FadeShader : MonoBehaviour
     public HiddenShader hiddenShader;
     private void Awake()
     {
-        meshRenderer = GetComponent<MeshRenderer>();
+        if(meshRenderer == null)
+            meshRenderer = GetComponent<MeshRenderer>();
+
         materials = meshRenderer.materials;
     }
     private void OnTriggerEnter(Collider other)

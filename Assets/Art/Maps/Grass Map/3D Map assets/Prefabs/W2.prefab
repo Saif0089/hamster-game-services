@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 868824352236239117}
   - component: {fileID: 4296843820381828776}
   - component: {fileID: 2037179514259243618}
+  - component: {fileID: 4751636938283593700}
   m_Layer: 0
   m_Name: W2
   m_TagString: Untagged
@@ -60,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 959770ffb9d2ca94fa3c6bfb948362f1, type: 2}
+  - {fileID: 2100000, guid: 833427a843be77b4d9674b4e6c7e51cc, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -82,3 +83,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4751636938283593700
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 523965161226085303}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0203578, y: 0.02041958, z: 0.020453086}
+  m_Center: {x: -0.000178901, y: -0.00020978929, z: 0.00022654285}
