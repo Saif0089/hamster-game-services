@@ -15,7 +15,7 @@ MonoBehaviour:
   id: 0
   characterName: Nice
   description: 
-  Icon: {fileID: 21300000, guid: 4f143776275df8e409dbfd14d6b05888, type: 3}
+  Icon: {fileID: 3332658857675926943, guid: 53e29ea7a5d70284bbfa8ae8b26c0f64, type: 3}
   characterPrefab: {fileID: 6659168770434978205, guid: a8ab90ff5bcd925489c40fb8ea0e6253, type: 3}
   characterMesh: {fileID: 3073082290567806148, guid: 0ab64e58e22d2f64186272547cf03a95, type: 3}
   health: 5400
