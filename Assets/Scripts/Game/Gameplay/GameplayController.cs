@@ -135,6 +135,7 @@ public class GameplayController : Singleton<GameplayController>, IOnEventCallbac
                 }
 
                 localPlayer = PhotonNetwork.Instantiate(characterName, spawnPosition.position, spawnPosition.rotation);
+                localPlayer.transform.localScale = new Vector3(0.75f, 0.75f, 0.75f);
 
                 isInstatiated = true;
             }

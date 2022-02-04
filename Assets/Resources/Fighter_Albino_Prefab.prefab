@@ -141,6 +141,10 @@ PrefabInstance:
       propertyPath: m_Radius
       value: 0.4
       objectReference: {fileID: 0}
+    - target: {fileID: 8675872368377509155, guid: e3a155a441bdd334683990f616d0b17b, type: 3}
+      propertyPath: m_SynchronizeScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3a155a441bdd334683990f616d0b17b, type: 3}
 --- !u!4 &1014086489450991978 stripped
