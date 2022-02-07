@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 793915076975626020}
   m_Layer: 15
   m_Name: grass_1
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61,6 +61,8 @@ MonoBehaviour:
   meshRenderer: {fileID: 7708569208858552829}
   isTransparent: 0
   hiddenShader: {fileID: 2212028860978719658}
+  transparentGrass: {fileID: 2100000, guid: eb86ce8fd40ed254b9518a279a90330a, type: 2}
+  standardGrass: {fileID: 2100000, guid: 833427a843be77b4d9674b4e6c7e51cc, type: 2}
 --- !u!1 &6517753692067845806
 GameObject:
   m_ObjectHideFlags: 0
