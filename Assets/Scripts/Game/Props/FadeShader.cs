@@ -13,9 +13,6 @@ public class FadeShader : MonoBehaviour
 
     public HiddenShader hiddenShader;
 
-    [Header("Grass Materials Setup")]
-    [SerializeField] private Material transparentGrass;
-    [SerializeField] private Material standardGrass;
     private void Awake()
     {
         if(meshRenderer == null)
@@ -25,14 +22,6 @@ public class FadeShader : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (gameObject.tag == "Grass")
-        {
-            if (transparentGrass == null)
-                return;
-            else
-                meshRenderer.material = transparentGrass;
-        }
-
         Character character = other.GetComponent<Character>();
         if (character != null)
         {
@@ -46,14 +35,6 @@ public class FadeShader : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (gameObject.tag == "Grass")
-        {
-            if (transparentGrass == null)
-                return;
-            else
-                meshRenderer.material = standardGrass;
-        }
-
         Character character = other.GetComponent<Character>();
         if(character!= null)
         {
