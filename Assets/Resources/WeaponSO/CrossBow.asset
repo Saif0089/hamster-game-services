@@ -19,5 +19,6 @@ MonoBehaviour:
   weaponPrefab_R: {fileID: 7709619420402933384, guid: 02c6d9b7afadd3443ae93fce708b1af5, type: 3}
   weaponPrefab_L: {fileID: 0}
   overrideAnimator: {fileID: 22100000, guid: b01f9e8fa253243428e090690745cca3, type: 2}
-  weaponSkill: {fileID: 11400000, guid: 16b6ed798d6f2e34c99912f6cfb69ab1, type: 2}
-  weaponUltimate: {fileID: 11400000, guid: 602d14ee78c5b5045a6e0fec7854fdbb, type: 2}
+  weaponSkill: {fileID: 11400000, guid: 2255248f2a58dc34db8277966fb19981, type: 2}
+  weaponUltimate: {fileID: 11400000, guid: 5e3781b1cdbf2d94483d463bcccfa069, type: 2}
+  shootPosition: 0
