@@ -55,7 +55,7 @@ public class FadeShader : MonoBehaviour
                 {
                     Color fadedColor = m.color;
                     fadedColor.a = 0.3f;
-                    m.DOColor(fadedColor, 0.5f);
+                    m.DOColor(fadedColor, 0.25f);
                     isTransparent = true;
                 }
             }
@@ -71,7 +71,7 @@ public class FadeShader : MonoBehaviour
                 {
                     Color fadedColor = m.color;
                     fadedColor.a = 1;
-                    m.DOColor(fadedColor, 0.5f);
+                    m.DOColor(fadedColor, 0.25f);
                     isTransparent = false;
                 }
             }

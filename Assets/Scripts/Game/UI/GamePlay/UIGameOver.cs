@@ -9,6 +9,7 @@ public class UIGameOver : MonoBehaviour
     public GameStatisticSO _GameStatistic;
     public UIGameResultBehaviour _WinGameResultUI;
     public UIGameResultBehaviour _LoseGameResultUI;
+    public GameObject _MatchOverviewUI;
 
 
     private void Start()
@@ -18,13 +19,15 @@ public class UIGameOver : MonoBehaviour
 
     private void ActiveGameOverUI()
     {
-        if (_GameStatistic.winnerTeam == _GameStatistic.masterTeam)
-        {
-            _WinGameResultUI.gameObject.SetActive(true);
-        }
-        else
-        {
-            _LoseGameResultUI.gameObject.SetActive(true);
-        }
+        _MatchOverviewUI.gameObject.SetActive(true);
+
+        //if (_GameStatistic.winnerTeam == _GameStatistic.masterTeam)
+        //{
+        //    _WinGameResultUI.gameObject.SetActive(true);
+        //}
+        //else
+        //{
+        //    _LoseGameResultUI.gameObject.SetActive(true);
+        //}
     }
 }
