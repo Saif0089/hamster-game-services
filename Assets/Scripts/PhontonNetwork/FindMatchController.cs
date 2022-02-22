@@ -46,7 +46,7 @@ public class FindMatchController : MonoBehaviourPunCallbacks, IOnEventCallback
     {
         PhotonNetwork.ConnectUsingSettings();
         //string region = PlayerPrefs.GetString(PrefsKeys.Region);
-        string region = "asia";
+        string region = "eu";
         SetPhotonRegion(region);
     }
     
