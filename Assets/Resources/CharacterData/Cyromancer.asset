@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 725574791844c094d8bd455d0cd0538e, type: 3}
   m_Name: Cyromancer
   m_EditorClassIdentifier: 
-  id: 2
+  id: 1
   characterName: Cyromancer
   description: 
   Icon: {fileID: -1716186496693146243, guid: 53e29ea7a5d70284bbfa8ae8b26c0f64, type: 3}

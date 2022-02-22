@@ -3,9 +3,14 @@ guid: 5d90e2b140490c04690da86781a0d512
 ModelImporter:
   serializedVersion: 21100
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Map asset material
+    second: {fileID: 2100000, guid: 3877d3bcd3f5fa84d8fec1a2bb6d7399, type: 2}
   materials:
-    materialImportMode: 0
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1

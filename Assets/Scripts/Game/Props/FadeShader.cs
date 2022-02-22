@@ -5,8 +5,8 @@ using UnityEngine;
 
 public class FadeShader : MonoBehaviour
 {
-    [SerializeField] private List <MeshRenderer> meshRenderer;
-    private List <Material> materials;
+    [SerializeField] private MeshRenderer meshRenderer;
+    private Material[] materials;
     
     public bool isTransparent = false;
     private int triggerCount = 0;
@@ -17,19 +17,21 @@ public class FadeShader : MonoBehaviour
     {
         if(meshRenderer == null)
         {
-            Transform[] allChildren = GetComponentsInChildren<Transform>();
-            foreach (Transform child in allChildren)
-            {
-                meshRenderer.Add(child.GetComponent<MeshRenderer>());
-            }
+            meshRenderer = GetComponent<MeshRenderer>();
+
+            //Transform[] allChildren = GetComponentsInChildren<Transform>();
+            //foreach (Transform child in allChildren)
+            //{
+            //    meshRenderer.Add(child.GetComponent<MeshRenderer>());
+            //}
                 
-            for(int i= 0; i<meshRenderer.Count; i++)
-            {
-                materials[i] = meshRenderer[i].material;
-            }
+            //for(int i= 0; i<meshRenderer.Count; i++)
+            //{
+            //    materials[i] = meshRenderer[i].material;
+            //}
         }
 
-        //materials = meshRenderer.materials;
+        materials = meshRenderer.materials;
     }
     private void OnTriggerEnter(Collider other)
     {
