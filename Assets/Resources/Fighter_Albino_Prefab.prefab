@@ -84,7 +84,7 @@ PrefabInstance:
     - target: {fileID: 3561634140795531011, guid: e3a155a441bdd334683990f616d0b17b, type: 3}
       propertyPath: data
       value: 
-      objectReference: {fileID: 11400000, guid: 79b1b575515cd4ef599a1681df17c314, type: 2}
+      objectReference: {fileID: 11400000, guid: a7fa5165b3b062a4d93b034d3de4bc33, type: 2}
     - target: {fileID: 3977545303973464102, guid: e3a155a441bdd334683990f616d0b17b, type: 3}
       propertyPath: m_Name
       value: Fighter_Albino_Prefab
@@ -140,6 +140,10 @@ PrefabInstance:
     - target: {fileID: 7852602939469898949, guid: e3a155a441bdd334683990f616d0b17b, type: 3}
       propertyPath: m_Radius
       value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8675872368377509155, guid: e3a155a441bdd334683990f616d0b17b, type: 3}
+      propertyPath: m_SynchronizeScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3a155a441bdd334683990f616d0b17b, type: 3}

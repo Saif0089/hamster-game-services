@@ -21,3 +21,4 @@ MonoBehaviour:
   overrideAnimator: {fileID: 22100000, guid: b01f9e8fa253243428e090690745cca3, type: 2}
   weaponSkill: {fileID: 11400000, guid: 16b6ed798d6f2e34c99912f6cfb69ab1, type: 2}
   weaponUltimate: {fileID: 11400000, guid: 602d14ee78c5b5045a6e0fec7854fdbb, type: 2}
+  shootPosition: 0

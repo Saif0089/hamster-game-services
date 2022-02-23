@@ -143,8 +143,7 @@ MonoBehaviour:
   projectileObject: {fileID: 7323070788970459016, guid: 656f6b99cf368414aab6c963cfcb28db, type: 3}
   childTransform:
   - {fileID: 3110599659953681589}
-  - {fileID: 5752897178160658451}
-  - {fileID: 3760025425850954178}
+  spawnDelay: 0
 --- !u!1 &8657239230418312644
 GameObject:
   m_ObjectHideFlags: 0

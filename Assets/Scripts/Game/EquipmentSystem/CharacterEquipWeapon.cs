@@ -30,7 +30,11 @@ public class CharacterEquipWeapon : MonoBehaviour
 
     private void Start()
     {
-        if (isAutoInit) SetWeapon(_PlayerData.weaponID);
+        if (isAutoInit)
+        {
+            //SetWeapon(_PlayerData.weaponID);
+            SetWeapon(currentWeapon.id);
+        }
     }
 
     public void SetWeapon(string weaponID)

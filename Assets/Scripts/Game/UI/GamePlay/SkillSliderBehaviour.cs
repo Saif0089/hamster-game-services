@@ -6,12 +6,15 @@ using System;
 public class SkillSliderBehaviour : MonoBehaviour
 {
     public UISliderBehaviour chargeSlider;
+    public Image chargeBar;
 
     public UISliderBehaviour regenSlider;
+    public Image regenBar;
 
     private Ability abilityData;
 
     public UISliderSeparator sliderChargeSeparator;
+    public Image sliderChargeSeparatorBar;
 
     private bool isInitalized;
     public void Initializing(Ability ability)
@@ -51,10 +54,15 @@ public class SkillSliderBehaviour : MonoBehaviour
     private void UpdateRegenSlider(float value)
     {
         regenSlider.SetCurrentValue(value);
+        regenBar.fillAmount = regenSlider.slider.minValue / regenSlider.slider.maxValue;
     }
 
     private void UpdateCharge(int value)
     {
-        if(chargeSlider != null) chargeSlider.SetCurrentValue(value);
+        if (chargeSlider != null)
+        {
+            chargeSlider.SetCurrentValue(value);
+            chargeBar.fillAmount = chargeSlider.slider.minValue / chargeSlider.slider.maxValue; ;
+        }
     }
 }

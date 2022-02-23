@@ -63,13 +63,14 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5b7f882b5ce214bcb926953340e7a1ac, type: 3}
-  m_Type: 1
-  m_PreserveAspect: 0
+  m_Sprite: {fileID: 21300000, guid: 49a46216a231ffc4c8e2996e0a9bf671, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -91,6 +92,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -99,7 +101,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -121,6 +123,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 4609001227110787216}
+        m_TargetAssemblyTypeName: 
         m_MethodName: OnSwitchButtonClicked
         m_Mode: 1
         m_Arguments:
@@ -146,11 +149,11 @@ MonoBehaviour:
   swithBackground: {fileID: 3813936488394224579}
   switchHandler: {fileID: 3813936488508731681}
   switchHandlerObject: {fileID: 3813936488508731683}
-  switchState: 0
-  switchBG_On: {fileID: 21300000, guid: 3e3d9a2ab4efd453584bcefdce9ff684, type: 3}
-  switchHandler_On: {fileID: 21300000, guid: 3a2ff0e3f71f243c981673ca7d26b519, type: 3}
-  switchBG_Off: {fileID: 21300000, guid: 5b7f882b5ce214bcb926953340e7a1ac, type: 3}
-  switchHandler_Off: {fileID: 21300000, guid: a521a16f50bfc46d7aa584b5515ced5b, type: 3}
+  isActive: 0
+  switchBG_On: {fileID: 21300000, guid: 49a46216a231ffc4c8e2996e0a9bf671, type: 3}
+  switchHandler_On: {fileID: 21300000, guid: a067106622f66bf47a27223b0acec20f, type: 3}
+  switchBG_Off: {fileID: 21300000, guid: b84da39c19b61c3429eaea273c69a564, type: 3}
+  switchHandler_Off: {fileID: 21300000, guid: a067106622f66bf47a27223b0acec20f, type: 3}
 --- !u!1 &3813936488508731683
 GameObject:
   m_ObjectHideFlags: 0
@@ -185,8 +188,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -39.278, y: -5.6}
-  m_SizeDelta: {x: 147.03845, y: 91}
+  m_AnchoredPosition: {x: -69.34327, y: 0}
+  m_SizeDelta: {x: 74.6639, y: 78.1794}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3813936488508731680
 CanvasRenderer:
@@ -203,7 +206,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3813936488508731683}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -211,13 +214,14 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a521a16f50bfc46d7aa584b5515ced5b, type: 3}
-  m_Type: 1
-  m_PreserveAspect: 0
+  m_Sprite: {fileID: 21300000, guid: a067106622f66bf47a27223b0acec20f, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1

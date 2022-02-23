@@ -45,7 +45,8 @@ public class FindMatchController : MonoBehaviourPunCallbacks, IOnEventCallback
     private void Start()
     {
         PhotonNetwork.ConnectUsingSettings();
-        string region = PlayerPrefs.GetString(PrefsKeys.Region,"");
+        //string region = PlayerPrefs.GetString(PrefsKeys.Region);
+        string region = "eu";
         SetPhotonRegion(region);
     }
     
@@ -167,7 +168,7 @@ public class FindMatchController : MonoBehaviourPunCallbacks, IOnEventCallback
 
     private void Update()
     {
-        Debug.Log( PhotonNetwork.CountOfRooms);
+        //Debug.Log( PhotonNetwork.CountOfRooms);
     }
 
     public override void OnJoinRandomFailed(short returnCode, string message)

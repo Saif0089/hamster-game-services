@@ -63,7 +63,7 @@ public class UISwitchButton : MonoBehaviour
     {
         switchHandlerObject.transform.DOLocalMoveX(-handlerPosition.x, 0.3f);
 
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForEndOfFrame();
 
         SetSwitchUI(isActive);
     }

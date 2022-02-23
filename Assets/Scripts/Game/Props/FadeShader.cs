@@ -5,16 +5,32 @@ using UnityEngine;
 
 public class FadeShader : MonoBehaviour
 {
-    private MeshRenderer meshRenderer;
+    [SerializeField] private MeshRenderer meshRenderer;
     private Material[] materials;
-
+    
     public bool isTransparent = false;
     private int triggerCount = 0;
 
     public HiddenShader hiddenShader;
+
     private void Awake()
     {
-        meshRenderer = GetComponent<MeshRenderer>();
+        if(meshRenderer == null)
+        {
+            meshRenderer = GetComponent<MeshRenderer>();
+
+            //Transform[] allChildren = GetComponentsInChildren<Transform>();
+            //foreach (Transform child in allChildren)
+            //{
+            //    meshRenderer.Add(child.GetComponent<MeshRenderer>());
+            //}
+                
+            //for(int i= 0; i<meshRenderer.Count; i++)
+            //{
+            //    materials[i] = meshRenderer[i].material;
+            //}
+        }
+
         materials = meshRenderer.materials;
     }
     private void OnTriggerEnter(Collider other)
@@ -52,7 +68,7 @@ public class FadeShader : MonoBehaviour
                 {
                     Color fadedColor = m.color;
                     fadedColor.a = 0.3f;
-                    m.DOColor(fadedColor, 0.5f);
+                    m.DOColor(fadedColor, 0.25f);
                     isTransparent = true;
                 }
             }
@@ -68,7 +84,7 @@ public class FadeShader : MonoBehaviour
                 {
                     Color fadedColor = m.color;
                     fadedColor.a = 1;
-                    m.DOColor(fadedColor, 0.5f);
+                    m.DOColor(fadedColor, 0.25f);
                     isTransparent = false;
                 }
             }
