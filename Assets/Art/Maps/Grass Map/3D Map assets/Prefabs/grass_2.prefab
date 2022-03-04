@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 5298947084833031700}
   m_Layer: 15
   m_Name: grass_2
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -158,7 +158,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 6862631346828925525}
   isTransparent: 0
-  hiddenShader: {fileID: 3595226568261022077}
+  hiddenShader: {fileID: 4526990229717959358}
 --- !u!135 &5298947084833031700
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -183,6 +183,8 @@ GameObject:
   - component: {fileID: 2761772197918662667}
   - component: {fileID: 270909875756900679}
   - component: {fileID: 6862631346828925525}
+  - component: {fileID: 4526990229717959358}
+  - component: {fileID: 4602154328128612830}
   m_Layer: 0
   m_Name: MeshBaker (0)-mesh-mesh
   m_TagString: Untagged
@@ -254,3 +256,29 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &4526990229717959358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7370559657193607582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c95aa7c916f463c438697881104cb528, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeShader: {fileID: 5846337682289374716}
+--- !u!65 &4602154328128612830
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7370559657193607582}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.30304125, y: 0.2680407, z: 0.19881797}
+  m_Center: {x: 3.0079226, y: 0.1868908, z: -4.879577}

@@ -7,7 +7,7 @@ public class FadeShader : MonoBehaviour
 {
     [SerializeField] private MeshRenderer meshRenderer;
     private Material[] materials;
-    
+
     public bool isTransparent = false;
     private int triggerCount = 0;
 
@@ -15,21 +15,8 @@ public class FadeShader : MonoBehaviour
 
     private void Awake()
     {
-        if(meshRenderer == null)
-        {
+        if (meshRenderer == null)
             meshRenderer = GetComponent<MeshRenderer>();
-
-            //Transform[] allChildren = GetComponentsInChildren<Transform>();
-            //foreach (Transform child in allChildren)
-            //{
-            //    meshRenderer.Add(child.GetComponent<MeshRenderer>());
-            //}
-                
-            //for(int i= 0; i<meshRenderer.Count; i++)
-            //{
-            //    materials[i] = meshRenderer[i].material;
-            //}
-        }
 
         materials = meshRenderer.materials;
     }
@@ -49,7 +36,7 @@ public class FadeShader : MonoBehaviour
     private void OnTriggerExit(Collider other)
     {
         Character character = other.GetComponent<Character>();
-        if(character!= null)
+        if (character != null)
         {
             if (!CanOpacity(character)) return;
             triggerCount--;

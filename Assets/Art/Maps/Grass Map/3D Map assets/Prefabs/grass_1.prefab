@@ -61,7 +61,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 3308382019965672625}
   isTransparent: 0
-  hiddenShader: {fileID: 2212028860978719658}
+  hiddenShader: {fileID: 5912822886923220186}
 --- !u!1 &6517753692067845806
 GameObject:
   m_ObjectHideFlags: 0
@@ -183,6 +183,8 @@ GameObject:
   - component: {fileID: 2711437760690321281}
   - component: {fileID: 5073139181782116085}
   - component: {fileID: 3308382019965672625}
+  - component: {fileID: 5912822886923220186}
+  - component: {fileID: 7312254036071877740}
   m_Layer: 0
   m_Name: MeshBaker (0)-mesh-mesh
   m_TagString: Untagged
@@ -254,3 +256,29 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &5912822886923220186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7432379615888637555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c95aa7c916f463c438697881104cb528, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeShader: {fileID: 793915076975626020}
+--- !u!65 &7312254036071877740
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7432379615888637555}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.30304125, y: 0.2680407, z: 0.19881797}
+  m_Center: {x: 0, y: -0.02, z: 0}

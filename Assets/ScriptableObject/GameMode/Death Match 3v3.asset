@@ -16,8 +16,8 @@ MonoBehaviour:
     sceneAsset: {fileID: 102900000, guid: bffc53989b1230f4eb02f4066ec3fa14, type: 3}
     sceneName: Scenes/GameScene/Grass Scene
   modeID: 1
-  maxPlayer: 6
-  teamSize: 2
+  maxPlayer: 10
+  teamSize: 5
   respawnTime: 4
   connectionTimeOut: 15
   gameTime: 300

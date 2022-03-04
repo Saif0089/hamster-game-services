@@ -57,9 +57,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ab64e58e22d2f64186272547cf03a95, type: 3}
---- !u!137 &6576051744716224255 stripped
+--- !u!137 &4991496457911161785 stripped
 SkinnedMeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 8144344143366706912, guid: 0ab64e58e22d2f64186272547cf03a95, type: 3}
+  m_CorrespondingSourceObject: {fileID: 7998685908447032230, guid: 0ab64e58e22d2f64186272547cf03a95, type: 3}
   m_PrefabInstance: {fileID: 3045649276521816095}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7735225750507903419
@@ -84,7 +84,7 @@ PrefabInstance:
     - target: {fileID: 7030889988015291439, guid: e3a155a441bdd334683990f616d0b17b, type: 3}
       propertyPath: meshRenderer
       value: 
-      objectReference: {fileID: 6576051744716224255}
+      objectReference: {fileID: 4991496457911161785}
     - target: {fileID: 7299148194553104593, guid: e3a155a441bdd334683990f616d0b17b, type: 3}
       propertyPath: m_RootOrder
       value: 0
