@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2420064303164673818}
   - component: {fileID: 7417177016517705414}
   - component: {fileID: 183153753908449460}
+  - component: {fileID: 2549930688114515891}
   m_Layer: 0
   m_Name: Wooden box 2
   m_TagString: Untagged
@@ -82,6 +83,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2549930688114515891
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3859200146691705175}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0033536763, y: 0.003436821, z: 0.0033744369}
+  m_Center: {x: 0.000014475838, y: -0.000010852469, z: -0.000015100697}
 --- !u!1 &4912765541510464498
 GameObject:
   m_ObjectHideFlags: 0
@@ -93,6 +107,7 @@ GameObject:
   - component: {fileID: 3766769345986831210}
   - component: {fileID: 7170522202976087229}
   - component: {fileID: 3643137643440167557}
+  - component: {fileID: 5371667653947840436}
   m_Layer: 0
   m_Name: Wooden box 1
   m_TagString: Untagged
@@ -164,6 +179,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &5371667653947840436
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4912765541510464498}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0033536763, y: 0.003436822, z: 0.0033744373}
+  m_Center: {x: 0.000014474092, y: -0.000010855382, z: -0.000015100701}
 --- !u!1 &7301852758311349644
 GameObject:
   m_ObjectHideFlags: 0
