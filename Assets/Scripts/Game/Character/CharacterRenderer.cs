@@ -129,7 +129,7 @@ public class CharacterRenderer : CharacterAbility
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.layer != 15) return;
-        HiddenShader hiddenPlace = other.GetComponent<HiddenShader>();
+        HiddenShader hiddenPlace = other.gameObject.transform.GetChild(0).GetComponent<HiddenShader>();
         if (hiddenPlace != null)
         {
             hiddenPlaces.Add(hiddenPlace);
@@ -139,7 +139,7 @@ public class CharacterRenderer : CharacterAbility
     private void OnTriggerExit(Collider other)
     {
         if (other.gameObject.layer != 15) return;
-        HiddenShader hiddenPlace = other.GetComponent<HiddenShader>();
+        HiddenShader hiddenPlace = other.transform.GetChild(0).GetComponent<HiddenShader>();
         if (hiddenPlace && hiddenPlaces.Contains(hiddenPlace))
         {
             hiddenPlaces.Remove(hiddenPlace);
