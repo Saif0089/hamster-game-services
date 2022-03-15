@@ -55,6 +55,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fighter_Albino_Model 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5373418193850266111, guid: 0ab64e58e22d2f64186272547cf03a95, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: af67d97d853784303a8d8a8d9b1345fa, type: 2}
+    - target: {fileID: 7998685908447032230, guid: 0ab64e58e22d2f64186272547cf03a95, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: af67d97d853784303a8d8a8d9b1345fa, type: 2}
+    - target: {fileID: 8677141317535893977, guid: 0ab64e58e22d2f64186272547cf03a95, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: af67d97d853784303a8d8a8d9b1345fa, type: 2}
+    - target: {fileID: 9197428119647197209, guid: 0ab64e58e22d2f64186272547cf03a95, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: af67d97d853784303a8d8a8d9b1345fa, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ab64e58e22d2f64186272547cf03a95, type: 3}
 --- !u!137 &6576051744716224255 stripped
@@ -69,6 +85,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 543068068868591169, guid: e3a155a441bdd334683990f616d0b17b, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 543068068868591169, guid: e3a155a441bdd334683990f616d0b17b, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1013798140243407179, guid: e3a155a441bdd334683990f616d0b17b, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -80,6 +104,14 @@ PrefabInstance:
     - target: {fileID: 3977545303973464102, guid: e3a155a441bdd334683990f616d0b17b, type: 3}
       propertyPath: m_Name
       value: Pyromancer Prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 5189989639488700289, guid: e3a155a441bdd334683990f616d0b17b, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5189989639488700289, guid: e3a155a441bdd334683990f616d0b17b, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7030889988015291439, guid: e3a155a441bdd334683990f616d0b17b, type: 3}
       propertyPath: meshRenderer
