@@ -13,6 +13,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fadeShader: {fileID: 2254891075897806736}
+--- !u!65 &24085740384249014
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 531408987734446315}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.005973854, y: 0.005927672, z: 0.0066293175}
+  m_Center: {x: 0.0029221387, y: -0.0029919823, z: 0.0036029776}
 --- !u!1 &2062056957359347284
 GameObject:
   m_ObjectHideFlags: 0
@@ -72,7 +85,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.19390856
+  m_Radius: 0.4
   m_Center: {x: 0.12000004, y: 0.14019954, z: 0.15}
 --- !u!1001 &837274227476377018
 PrefabInstance:

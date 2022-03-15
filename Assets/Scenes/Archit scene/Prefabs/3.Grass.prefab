@@ -59,8 +59,21 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.15496477
+  m_Radius: 0.4
   m_Center: {x: -0.120000005, y: 0.120000005, z: 0.15}
+--- !u!65 &5574988056933967161
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6665249984436395215}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.002475016, y: 0.0022579383, z: 0.0023409098}
+  m_Center: {x: -0.0011693299, y: -0.0016001316, z: 0.0014587229}
 --- !u!114 &1556348209670909899
 MonoBehaviour:
   m_ObjectHideFlags: 0
