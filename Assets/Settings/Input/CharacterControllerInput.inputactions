@@ -52,6 +52,14 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
+                },
+                {
+                    "name": "AimMouse",
+                    "type": "Button",
+                    "id": "c07450db-a85c-41b5-8338-a17c9c0b1564",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
                 }
             ],
             "bindings": [
@@ -146,7 +154,7 @@
                 {
                     "name": "",
                     "id": "bcef1042-c95c-4658-9181-61ff45f2fdfa",
-                    "path": "<Keyboard>/c",
+                    "path": "<Keyboard>/q",
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard",
@@ -206,6 +214,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "Action2Value",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d1853a57-54d4-41c7-9869-5d6442b04b3a",
+                    "path": "<Mouse>/middleButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AimMouse",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

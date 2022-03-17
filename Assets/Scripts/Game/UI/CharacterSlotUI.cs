@@ -11,6 +11,8 @@ public class CharacterSlotUI : MonoBehaviour
     public TextMeshProUGUI characterName;
 
     public Image characterIcon;
+    
+    public Canvas parentCanvas;
 
     public void SetCharacterUI()
     {
@@ -26,5 +28,6 @@ public class CharacterSlotUI : MonoBehaviour
         EventHandlerUI.SwapCharacter(_CharacterData);
     }
 
+   
 }
 

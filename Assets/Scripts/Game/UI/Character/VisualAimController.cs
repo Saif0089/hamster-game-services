@@ -14,7 +14,7 @@ public class VisualAimController : MonoBehaviour
 
     public Color skillColor;
     public Color ultimateColor;
-
+    public bool aimWithMouse;
     public WeaponSkill weaponSkill;
 
     private Vector2 currentDirection;
@@ -26,6 +26,7 @@ public class VisualAimController : MonoBehaviour
         controller.controllerInput.CharacterController.FireValue.performed += OnWeaponSkill;
         controller.controllerInput.CharacterController.Action2Value.performed += OnWeaponUltimate;
         controller.controllerInput.CharacterController.Action2Value.canceled += OnWeaponUltimateCancelled;
+       // controller.controllerInput.CharacterController.AimMouse.performed += OnAimWithMouse;
     }
 
 
@@ -34,6 +35,7 @@ public class VisualAimController : MonoBehaviour
         controller.controllerInput.CharacterController.FireValue.performed -= OnWeaponSkill;
         controller.controllerInput.CharacterController.Action2Value.performed -= OnWeaponUltimate;
         controller.controllerInput.CharacterController.Action2Value.canceled -= OnWeaponUltimateCancelled;
+       // controller.controllerInput.CharacterController.AimMouse.performed -= OnAimWithMouse;
     }
 
     private void OnWeaponUltimateCancelled(InputAction.CallbackContext obj)
@@ -49,6 +51,7 @@ public class VisualAimController : MonoBehaviour
 
     private void LateUpdate()
     {
+        Mouse.current.delta.x.ReadValue();
         if (onAiming)
         {
             Vector3 aimDirection = new Vector3(currentDirection.x, 0, currentDirection.y);
@@ -57,12 +60,19 @@ public class VisualAimController : MonoBehaviour
         }
     }
 
+    public void OnAimWithMouse(InputAction.CallbackContext context)
+    {
+        aimWithMouse = context.ReadValueAsButton();
+    }
 
 
     private void OnWeaponSkill(InputAction.CallbackContext context)
     {
-        //if (!weaponSkill.cooldown.IsSkillAvailable()) return;
-        currentDirection = context.ReadValue<Vector2>();
+
+       
+            currentDirection = context.ReadValue<Vector2>();
+        
+        
         if(currentDirection != Vector2.zero)
         {
             if (aimObject != null) aimObject.SetActive(true);

@@ -65,6 +65,14 @@ public class @CharacterControllerInput : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""AimMouse"",
+                    ""type"": ""Button"",
+                    ""id"": ""c07450db-a85c-41b5-8338-a17c9c0b1564"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -159,7 +167,7 @@ public class @CharacterControllerInput : IInputActionCollection, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""bcef1042-c95c-4658-9181-61ff45f2fdfa"",
-                    ""path"": ""<Keyboard>/c"",
+                    ""path"": ""<Keyboard>/q"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Keyboard"",
@@ -221,6 +229,17 @@ public class @CharacterControllerInput : IInputActionCollection, IDisposable
                     ""action"": ""Action2Value"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""d1853a57-54d4-41c7-9869-5d6442b04b3a"",
+                    ""path"": ""<Mouse>/middleButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""AimMouse"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -247,6 +266,7 @@ public class @CharacterControllerInput : IInputActionCollection, IDisposable
         m_CharacterController_Action2 = m_CharacterController.FindAction("Action2", throwIfNotFound: true);
         m_CharacterController_Action2Value = m_CharacterController.FindAction("Action2Value", throwIfNotFound: true);
         m_CharacterController_Action3 = m_CharacterController.FindAction("Action3", throwIfNotFound: true);
+        m_CharacterController_AimMouse = m_CharacterController.FindAction("AimMouse", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -302,6 +322,7 @@ public class @CharacterControllerInput : IInputActionCollection, IDisposable
     private readonly InputAction m_CharacterController_Action2;
     private readonly InputAction m_CharacterController_Action2Value;
     private readonly InputAction m_CharacterController_Action3;
+    private readonly InputAction m_CharacterController_AimMouse;
     public struct CharacterControllerActions
     {
         private @CharacterControllerInput m_Wrapper;
@@ -312,6 +333,7 @@ public class @CharacterControllerInput : IInputActionCollection, IDisposable
         public InputAction @Action2 => m_Wrapper.m_CharacterController_Action2;
         public InputAction @Action2Value => m_Wrapper.m_CharacterController_Action2Value;
         public InputAction @Action3 => m_Wrapper.m_CharacterController_Action3;
+        public InputAction @AimMouse => m_Wrapper.m_CharacterController_AimMouse;
         public InputActionMap Get() { return m_Wrapper.m_CharacterController; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -339,6 +361,9 @@ public class @CharacterControllerInput : IInputActionCollection, IDisposable
                 @Action3.started -= m_Wrapper.m_CharacterControllerActionsCallbackInterface.OnAction3;
                 @Action3.performed -= m_Wrapper.m_CharacterControllerActionsCallbackInterface.OnAction3;
                 @Action3.canceled -= m_Wrapper.m_CharacterControllerActionsCallbackInterface.OnAction3;
+                @AimMouse.started -= m_Wrapper.m_CharacterControllerActionsCallbackInterface.OnAimMouse;
+                @AimMouse.performed -= m_Wrapper.m_CharacterControllerActionsCallbackInterface.OnAimMouse;
+                @AimMouse.canceled -= m_Wrapper.m_CharacterControllerActionsCallbackInterface.OnAimMouse;
             }
             m_Wrapper.m_CharacterControllerActionsCallbackInterface = instance;
             if (instance != null)
@@ -361,6 +386,9 @@ public class @CharacterControllerInput : IInputActionCollection, IDisposable
                 @Action3.started += instance.OnAction3;
                 @Action3.performed += instance.OnAction3;
                 @Action3.canceled += instance.OnAction3;
+                @AimMouse.started += instance.OnAimMouse;
+                @AimMouse.performed += instance.OnAimMouse;
+                @AimMouse.canceled += instance.OnAimMouse;
             }
         }
     }
@@ -382,5 +410,6 @@ public class @CharacterControllerInput : IInputActionCollection, IDisposable
         void OnAction2(InputAction.CallbackContext context);
         void OnAction2Value(InputAction.CallbackContext context);
         void OnAction3(InputAction.CallbackContext context);
+        void OnAimMouse(InputAction.CallbackContext context);
     }
 }

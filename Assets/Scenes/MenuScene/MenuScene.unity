@@ -2375,6 +2375,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 05a8ef263c60d400c9921707050a460e, type: 3}
+    - target: {fileID: 6556902023765632263, guid: 6b10d21a1fb1c9147a7644258e5d8bc3, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6556902025601553710, guid: 6b10d21a1fb1c9147a7644258e5d8bc3, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 39
@@ -3346,7 +3350,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0.00001832654, y: 0}
-  m_SizeDelta: {x: 130.49268, y: 1132.7}
+  m_SizeDelta: {x: 34.209717, y: 1132.7}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &218100853
 MonoBehaviour:
@@ -9511,6 +9515,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 133117877}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &712878897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15103,6 +15119,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 133117877}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1435794759
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19912,7 +19940,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 169.31885, y: 0}
+  m_SizeDelta: {x: 0, y: 13.661865}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1885582233
 MonoBehaviour:
@@ -19950,7 +19978,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 3bb6015d2000c4b68947b11d8059bf69, type: 3}
   m_Type: 0
-  m_PreserveAspect: 1
+  m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
