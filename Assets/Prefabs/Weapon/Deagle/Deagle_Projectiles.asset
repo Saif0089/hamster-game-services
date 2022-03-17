@@ -30,4 +30,4 @@ MonoBehaviour:
   despawnOnColliderCharacter: 1
   despawnOnColliderEnvironment: 1
   range: 60
-  speed: 15
+  speed: 10

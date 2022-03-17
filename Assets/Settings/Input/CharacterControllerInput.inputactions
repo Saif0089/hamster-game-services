@@ -208,6 +208,17 @@
                 },
                 {
                     "name": "",
+                    "id": "4048e12c-4282-4bb0-8dbd-187ed08d55e5",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FireAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "8a5c77f1-1808-4a55-8918-dedfff854caa",
                     "path": "<AndroidJoystick>/stick",
                     "interactions": "",

@@ -108,6 +108,26 @@ public class Projectile : MonoBehaviour, IWeaponOwner
         }
     }
 
+    private void OnCollisionEnter(Collision other)
+    {
+        IDamageable target = other.transform.GetComponent<IDamageable>();
+
+        if (target != null)
+        {
+            if (!target.IsDamageable(_Owner)) return;
+
+            target.ApplyDamage(damage, _Owner);
+
+            if (projectiles.despawnOnColliderCharacter)
+                PoolManager.Despawn(gameObject); 
+        }
+        else
+        {
+            if (projectiles.despawnOnColliderEnvironment)
+                PoolManager.Despawn(gameObject);
+        }
+    }
+
     private void SyncPosition(float range)
     {
         Debug.Log(transform.position);

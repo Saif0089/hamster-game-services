@@ -26,4 +26,4 @@ MonoBehaviour:
   winRewardData: {fileID: 11400000, guid: 2b19dd3db2149ae40b42027d2326af9c, type: 2}
   lostRewardData: {fileID: 11400000, guid: 0acd4d24b8981ad4e9bec5e093134d6a, type: 2}
   currentPlayerIndex: 0
-  maxScore: 5
+  maxScore: 10
