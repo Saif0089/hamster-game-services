@@ -466,7 +466,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 745d67aa7589b4047a9886a00dea88c8, type: 3}
   m_Type: 0
-  m_PreserveAspect: 1
+  m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -15238,7 +15238,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a13ef46480c21f4780aaeaf2db306b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clip: {fileID: 8300000, guid: 90c5e8bf8a4f07145b4ffe8f1979aeb7, type: 3}
+  clip: {fileID: 8300000, guid: b05f2c05d8d2560428cd68648dd26796, type: 3}
 --- !u!1 &1472157543
 GameObject:
   m_ObjectHideFlags: 0
@@ -18178,6 +18178,7 @@ GameObject:
   - component: {fileID: 1746565615}
   - component: {fileID: 1746565617}
   - component: {fileID: 1746565616}
+  - component: {fileID: 1746565618}
   m_Layer: 5
   m_Name: Text Below
   m_TagString: Untagged
@@ -18301,6 +18302,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1746565614}
   m_CullTransparentMesh: 1
+--- !u!114 &1746565618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746565614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f24f950ff92736b46ae92163efbe292a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countdownFormatting: 0
+  showMilliseconds: 0
+  countdownTime: 397490
+  prefix: 'NEW ARENA IN:  '
 --- !u!1 &1757416603
 GameObject:
   m_ObjectHideFlags: 0
@@ -21209,6 +21226,7 @@ GameObject:
   - component: {fileID: 2007064218}
   - component: {fileID: 2007064220}
   - component: {fileID: 2007064219}
+  - component: {fileID: 2007064221}
   m_Layer: 5
   m_Name: Text Below
   m_TagString: Untagged
@@ -21332,6 +21350,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2007064217}
   m_CullTransparentMesh: 1
+--- !u!114 &2007064221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2007064217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f24f950ff92736b46ae92163efbe292a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countdownFormatting: 0
+  showMilliseconds: 0
+  countdownTime: 597490
+  prefix: 'QUESTS REFRESHES IN:  '
 --- !u!1 &2028282478
 GameObject:
   m_ObjectHideFlags: 0
